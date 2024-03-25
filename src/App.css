@@ -8,9 +8,7 @@
   font-weight: 400;
   border: none;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 .div{
   width: 100%;
@@ -20,6 +18,9 @@
   justify-content: center;
 }
 .title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
   font-size: 18px;
   font-weight: 500;
