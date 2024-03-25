@@ -8,6 +8,14 @@
   font-weight: 400;
   border: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .img {
@@ -26,6 +34,12 @@
 
 .button:hover {
   background-color: inherit;
+
+
+}
+.button:hover .title{
+  opacity: 0;
+  flex-wrap: nowrap;
 
 
 }
